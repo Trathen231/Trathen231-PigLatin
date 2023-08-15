@@ -19,7 +19,7 @@ public class PigLatin {
     public String returnPigLatin(String in) {
         if (in == null || in.isEmpty()) {
             return ""; // Return an empty string for null or empty input
-        }
+        } 
         
         char firstChar = in.charAt(0);
         String restOfWord = in.substring(1); // Get the substring from index 1 to the end
